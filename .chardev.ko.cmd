@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/modules/chardev/chardev.ko := ld -EL -r  -T /usr/src/linux-3.8.13-bone30/scripts/module-common.lds --build-id  -o /home/ubuntu/modules/chardev/chardev.ko /home/ubuntu/modules/chardev/chardev.o /home/ubuntu/modules/chardev/chardev.mod.o
