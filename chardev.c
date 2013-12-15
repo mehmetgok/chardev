@@ -9,18 +9,9 @@
 // sonradan eklendi
 // http://www.linuxforu.com/2011/04/character-device-files-creation-operations/
 #include <linux/kdev_t.h>
-
-
-
-
 #include <linux/version.h>
-
 #include <linux/types.h>
-
 #include <linux/device.h>
-
-
-
 
 /*
 static struct cdev c_dev; // Global variable for the character device structure
